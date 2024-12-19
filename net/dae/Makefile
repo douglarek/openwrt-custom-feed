@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
 # Copyright (C) 2023 ImmortalWrt.org
+# Copyright (C) 2024 Leo Douglas
 
 include $(TOPDIR)/rules.mk
 
@@ -14,7 +15,7 @@ PKG_HASH:=b631e2cc729f28410f5ccf584de18cf6a839c4a313d694df5e326377f6435ab1
 
 PKG_LICENSE:=AGPL-3.0-only
 PKG_LICENSE_FILE:=LICENSE
-PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
+PKG_MAINTAINER:=Leo Douglas <douglarek@gmail.com>
 
 PKG_BUILD_DEPENDS:=golang/host bpf-headers
 PKG_BUILD_PARALLEL:=1
