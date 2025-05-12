@@ -6,7 +6,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dae
-PKG_VERSION:=1.0.0_rc2
+PKG_VERSION:=1.0.0_rc3
 PKG_RELEASE:=1
 
 PKG_VERSION_NORMALIZED := $(subst _,,$(PKG_VERSION))
